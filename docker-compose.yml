@@ -15,7 +15,7 @@ services:
       - redis
       - jaeger
     volumes:
-      # shared volume between worker and api for media
+      #shared volume between worker and api for media
       - saleor-media:/app/media
     env_file:
       - common.env
