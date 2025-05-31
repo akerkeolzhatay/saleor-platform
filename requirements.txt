@@ -1,0 +1,16 @@
+# Основной фреймворк
+Django>=4.2,<5.0
+
+# WSGI сервер
+gunicorn>=20.1.0
+
+# База данных PostgreSQL
+psycopg2-binary>=2.9.6
+
+# Утилиты
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Для тестирования
+pytest>=7.4.0
+pytest-django>=4.5.2
